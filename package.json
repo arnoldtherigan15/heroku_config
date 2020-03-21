@@ -1,0 +1,29 @@
+{
+  "name": "heroku_config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "heroku_config": "http.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnoldtherigan15/heroku_config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnoldtherigan15/heroku_config/issues"
+  },
+  "homepage": "https://github.com/arnoldtherigan15/heroku_config#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.18.2",
+    "sequelize": "^5.21.5"
+  }
+}
