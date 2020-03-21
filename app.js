@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
 
-app.post('/',(req,res,next)=>{
+app.get('/',(req,res,next)=>{
     res.status(200).json({message:'welcome to my app'})
 })
 
